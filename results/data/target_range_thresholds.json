@@ -1,0 +1,10 @@
+{
+  "definition": "quartiles of train_val Y only",
+  "label_scale": "original TDC Y = log10(Papp / (1 cm/s))",
+  "q25": -5.710201475,
+  "q50": -5.085018600000001,
+  "q75": -4.609883275,
+  "train_val_n": 728,
+  "source_file": "data/caco_trackA/raw/caco2_wang_train_val.csv",
+  "source_sha256": "e0965b4a0617a3aa2978ef28794e3467d55655090f282a120355ea575ebed6b2"
+}
