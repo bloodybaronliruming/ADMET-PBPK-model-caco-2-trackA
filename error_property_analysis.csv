@@ -1,0 +1,8 @@
+property,n_test,spearman_rho,p_value_descriptive,error_definition
+MolWt,182,0.020194458965268228,0.78670741595961435,mean absolute residual across five Primary runs
+MolLogP,182,-0.10021112278847157,0.17830315503662181,mean absolute residual across five Primary runs
+TPSA,182,0.091736582351926652,0.21807384287089324,mean absolute residual across five Primary runs
+NumHDonors,182,0.084283537908800693,0.2579595692755845,mean absolute residual across five Primary runs
+NumHAcceptors,182,0.078536223723205942,0.29195604345628245,mean absolute residual across five Primary runs
+NumRotatableBonds,182,0.11245883376358817,0.13066150296492934,mean absolute residual across five Primary runs
+FractionCSP3,182,-0.052589524024624842,0.48076582995237188,mean absolute residual across five Primary runs
