@@ -1,0 +1,8 @@
+{
+  "reference_model_experiment_id": "B24_RDKIT2D_XGB",
+  "selection_metric": "minimum unrounded mean validation MAE",
+  "selection_value": 0.3452822328156255,
+  "source_file": "caco_trackA_v1/results/baselines/baseline_validation_matrix.csv",
+  "source_sha256": "982c89055ad2b8fb93600c30547eb71f9ced69b4f7e6a5d5c5ab0ec75c790cca",
+  "test_results_used_for_selection": false
+}

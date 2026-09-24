@@ -1,0 +1,55 @@
+{
+  "figure": "fig_s05_top_error_compounds",
+  "status": "PASS",
+  "created_at_utc": "2026-09-24T08:41:33.214083+00:00",
+  "output": "caco_trackA_v1/results/analysis/figures/png/fig_s05_top_error_compounds.png",
+  "output_sha256": "b36a943158a1bbf082dcb9bd52773ca418e4a3e474a671412d1244d2c7b93bae",
+  "pixels": [
+    4929,
+    3249
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "script": "caco_trackA_v1/figures/scripts/render_figures.py",
+  "script_sha256": "ed95325a43489bbfad501dc82f273fa170d76ddf559dac42c4be6a3e8954f6ce",
+  "source_sha256": {
+    "caco_trackA_v1/results/analysis/ablation/difficult_compounds.csv": "6dbd0c7179ab7af40fcfbdc36b70f4d513aea2767ee28c1bbb7e677e299cbaf0"
+  },
+  "transformations": [],
+  "software": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "visual_qc": "Manual contact-sheet review plus individual review of core comparison/ablation figures: no visible clipping or overlap; English labels and white background.",
+  "figure_id": "fig_s05_top_error_compounds",
+  "source_files": [
+    "caco_trackA_v1/results/analysis/ablation/difficult_compounds.csv"
+  ],
+  "source_hashes": {
+    "caco_trackA_v1/results/analysis/ablation/difficult_compounds.csv": "6dbd0c7179ab7af40fcfbdc36b70f4d513aea2767ee28c1bbb7e677e299cbaf0"
+  },
+  "plotting_data": [
+    "caco_trackA_v1/results/analysis/ablation/difficult_compounds.csv"
+  ],
+  "statistics": "See caption and plotting script; all derived analysis is descriptive.",
+  "reference_model_if_applicable": "B24_RDKIT2D_XGB",
+  "figure_size_inches": [
+    8.215,
+    5.415
+  ],
+  "output_png": "caco_trackA_v1/results/analysis/figures/png/fig_s05_top_error_compounds.png",
+  "generated_at": "2026-09-24T08:41:33.214083+00:00",
+  "git_commit": "d8eea30d5b22fbb0ebb9a05ba7a48eba38fa3bd7",
+  "git_commit_note": "Working tree contains uncommitted changes; commit alone does not identify generated code.",
+  "library_versions": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "upstream_figure_data_audit_sha256": "9c9b9667cb7baa8f675e1a6dfab9efb3bcc11fea8ad513ad9ba14e73d5b08ede"
+}

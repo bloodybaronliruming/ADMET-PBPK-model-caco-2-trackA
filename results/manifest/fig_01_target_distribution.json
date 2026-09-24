@@ -1,0 +1,55 @@
+{
+  "figure": "fig_01_target_distribution",
+  "status": "PASS",
+  "created_at_utc": "2026-09-24T08:41:22.731212+00:00",
+  "output": "caco_trackA_v1/results/analysis/figures/png/fig_01_target_distribution.png",
+  "output_sha256": "a90c02ada6b864e5232f12f792f2d164d9fdd50a6f8fbe358ed82051736880f0",
+  "pixels": [
+    6729,
+    2589
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "script": "caco_trackA_v1/figures/scripts/render_figures.py",
+  "script_sha256": "ed95325a43489bbfad501dc82f273fa170d76ddf559dac42c4be6a3e8954f6ce",
+  "source_sha256": {
+    "caco_trackA_v1/results/analysis/data/dataset_targets.csv": "46449c71cab7a551e308c370af51e89750406f3c0e3320e5226787c58b5d250f"
+  },
+  "transformations": [],
+  "software": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "visual_qc": "Manual contact-sheet review plus individual review of core comparison/ablation figures: no visible clipping or overlap; English labels and white background.",
+  "figure_id": "fig_01_target_distribution",
+  "source_files": [
+    "caco_trackA_v1/results/analysis/data/dataset_targets.csv"
+  ],
+  "source_hashes": {
+    "caco_trackA_v1/results/analysis/data/dataset_targets.csv": "46449c71cab7a551e308c370af51e89750406f3c0e3320e5226787c58b5d250f"
+  },
+  "plotting_data": [
+    "caco_trackA_v1/results/analysis/data/dataset_targets.csv"
+  ],
+  "statistics": "See caption and plotting script; all derived analysis is descriptive.",
+  "reference_model_if_applicable": null,
+  "figure_size_inches": [
+    11.215,
+    4.315
+  ],
+  "output_png": "caco_trackA_v1/results/analysis/figures/png/fig_01_target_distribution.png",
+  "generated_at": "2026-09-24T08:41:22.731212+00:00",
+  "git_commit": "d8eea30d5b22fbb0ebb9a05ba7a48eba38fa3bd7",
+  "git_commit_note": "Working tree contains uncommitted changes; commit alone does not identify generated code.",
+  "library_versions": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "upstream_figure_data_audit_sha256": "9c9b9667cb7baa8f675e1a6dfab9efb3bcc11fea8ad513ad9ba14e73d5b08ede"
+}

@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "figure_count": 18,
+  "main_count": 10,
+  "supplementary_count": 8,
+  "checks": [
+    "data audit PASS",
+    "ablation audit PASS",
+    "PNG format",
+    "600 dpi",
+    "white canvas",
+    "pixel dimensions",
+    "output SHA-256",
+    "source SHA-256",
+    "caption exists",
+    "manual visual review",
+    "science review of labels/protocols"
+  ],
+  "figures": [
+    {
+      "name": "fig_01_target_distribution",
+      "pixels": [
+        6729,
+        2589
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "a90c02ada6b864e5232f12f792f2d164d9fdd50a6f8fbe358ed82051736880f0",
+      "source_count": 1
+    },
+    {
+      "name": "fig_02_core_baseline_primary_mae",
+      "pixels": [
+        6130,
+        4629
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "07dd89af37df7ff0c5126bc870acdc1ec1a6b81c92bfeec7d6844dc5b0ecc5a2",
+      "source_count": 2
+    },
+    {
+      "name": "fig_03_representation_algorithm_heatmap",
+      "pixels": [
+        4920,
+        2349
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "a3c0de74b59c3cf353f41206407017a4efe6e32458acf5574238d8363ba35e6d",
+      "source_count": 1
+    },
+    {
+      "name": "fig_04_validation_vs_primary",
+      "pixels": [
+        3849,
+        3429
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "6f5d6c7041294e9adabdbe81b5569639bf814b17cacba5bb19cfd7a5edd4847f",
+      "source_count": 1
+    },
+    {
+      "name": "fig_05_reference_model_parity",
+      "pixels": [
+        3593,
+        3609
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "d07868ff4b47df34777dc0d2de7bb5381d1dc009ee7f79a209b8d41f17a430eb",
+      "source_count": 2
+    },
+    {
+      "name": "fig_06_reference_model_residuals",
+      "pixels": [
+        7329,
+        2409
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "23ec4bebf884078ba01b4c2d336fbf4b93d26abb8c05498cd2d858a272eda8c2",
+      "source_count": 1
+    },
+    {
+      "name": "fig_07_performance_by_target_range",
+      "pixels": [
+        4329,
+        2829
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "a2212cfc8a65c0978fc07e0a8af04de30512ce049850b1614eb95082e4496bc1",
+      "source_count": 2
+    },
+    {
+      "name": "fig_08_representation_ablation",
+      "pixels": [
+        7329,
+        3129
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "eab4a26c5acacc810450de74dbcc37965cbc956a5f12bcc5229d10988a617dfb",
+      "source_count": 1
+    },
+    {
+      "name": "fig_09_algorithm_ablation",
+      "pixels": [
+        7329,
+        3129
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "b0d993ce2460263f8dab9292e59d9e8780fc77f42e1baee651f9f51c01b01126",
+      "source_count": 1
+    },
+    {
+      "name": "fig_10_ablation_design_summary",
+      "pixels": [
+        7329,
+        2529
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "38aff96f71b8d8861d370ddf8f47a6a032fd5ae73470ce168238d3fdfa4884b8",
+      "source_count": 3
+    },
+    {
+      "name": "fig_s01_validation_split_distributions",
+      "pixels": [
+        4329,
+        2649
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "589563d38b9ac518b0350cac67976cbd9d12871fd922a7f8adc8fc9c11ce56e3",
+      "source_count": 1
+    },
+    {
+      "name": "fig_s02_validation_stability",
+      "pixels": [
+        5529,
+        4329
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "d48405a5ece5b5a10b365c315d09d8ca17fd616857517621550732147ed7408c",
+      "source_count": 2
+    },
+    {
+      "name": "fig_s03_primary_vs_secondary",
+      "pixels": [
+        3909,
+        3249
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "a74ccf5faf35526b86849b25afca5558e5aba55df93bbd999aa0db64c768b5c9",
+      "source_count": 1
+    },
+    {
+      "name": "fig_s04_reference_model_parity_by_split",
+      "pixels": [
+        6129,
+        3969
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "d94aee6eed84c98e1b07495b59642234c80d52b3b2f28c5195ddcbf1c8536326",
+      "source_count": 1
+    },
+    {
+      "name": "fig_s05_top_error_compounds",
+      "pixels": [
+        4929,
+        3249
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "b36a943158a1bbf082dcb9bd52773ca418e4a3e474a671412d1244d2c7b93bae",
+      "source_count": 1
+    },
+    {
+      "name": "fig_s06_error_vs_physchem",
+      "pixels": [
+        7809,
+        4029
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "0dbbb388988406e9b5a77233d25d292b5d172bc78e79e255cc4175695e97ca88",
+      "source_count": 3
+    },
+    {
+      "name": "fig_s07_physchem_correlation",
+      "pixels": [
+        4479,
+        3729
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "0a544f5814acf52286b16ceab13ec13a90e03fe01cc0235c2f63bacca929e5e6",
+      "source_count": 1
+    },
+    {
+      "name": "fig_s08_hyperparameter_validation_landscape",
+      "pixels": [
+        5229,
+        3429
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_sha256": "2622ed2cbc1f0cc863c4861280fc7b641f4f002a89d638b6f55fe19b2071af17",
+      "source_count": 12
+    }
+  ],
+  "scientific_scope": "Frozen v1 benchmark; descriptive test analyses; no test-driven model revision"
+}

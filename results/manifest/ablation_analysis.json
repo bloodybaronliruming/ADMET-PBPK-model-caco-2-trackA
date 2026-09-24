@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "caco_trackA_v1/results/analysis/data/baseline_primary_runs.csv": "6722ad07b0d43cafce52ac3af3d80a3ae9a8b613aec4a7e6a826def453473321",
+    "caco_trackA_v1/results/analysis/data/baseline_figure_summary.csv": "4fcaa1460bf9d82b9da0ece5e487fa722661ab5d5450a0bebdfb62e07993df67",
+    "caco_trackA_v1/results/analysis/data/reference_model_compound_summary.csv": "6883afcc5251580f22cee036ce2b6cf4c448ed3c95858c82b5c805c9247a43f6",
+    "caco_trackA_v1/results/analysis/data/reference_model_primary_predictions.csv": "35eae8850813b7254fa2dc5cf068d902c74c092e03b67c68f06878dd35d0d1a6",
+    "caco_trackA_v1/results/analysis/data/target_range_performance.csv": "71db9ba892a5e2b3cf6c0a134c50ccf18721132840039990f2783d3ea3a09f94",
+    "data/caco_trackA/process/features/physchem10/features_manifest.json": "cc69e604a5648ea6bfb028a7f046e3638f678c6117e9c7b37b281c521adf614b"
+  },
+  "counts": {
+    "representation_pairs": 60,
+    "algorithm_pairs": 90,
+    "linear_nonlinear_pairs": 40,
+    "test_records": 182
+  },
+  "inference": "descriptive paired split comparisons; no significance claims; no model selection"
+}

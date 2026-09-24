@@ -1,0 +1,99 @@
+{
+  "figure": "fig_s08_hyperparameter_validation_landscape",
+  "status": "PASS",
+  "created_at_utc": "2026-09-24T08:41:25.204763+00:00",
+  "output": "caco_trackA_v1/results/analysis/figures/png/fig_s08_hyperparameter_validation_landscape.png",
+  "output_sha256": "2622ed2cbc1f0cc863c4861280fc7b641f4f002a89d638b6f55fe19b2071af17",
+  "pixels": [
+    5229,
+    3429
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "script": "caco_trackA_v1/figures/scripts/render_figures.py",
+  "script_sha256": "ed95325a43489bbfad501dc82f273fa170d76ddf559dac42c4be6a3e8954f6ce",
+  "source_sha256": {
+    "caco_trackA_v1/results/baselines/B11_PC10_SVR/validation/candidate_results.csv": "8daedf2431091dcacd8ca1e9b1cf1647fafd6ec75b731f2b1c1f97d2b87cef41",
+    "caco_trackA_v1/results/baselines/B12_PC10_RF/validation/candidate_results.csv": "8bc5ff828bf464042df7a942caa2df6d31bbb0fec7cce3eef95e628f357edd17",
+    "caco_trackA_v1/results/baselines/B13_PC10_ET/validation/candidate_results.csv": "f101579326c1b9dd8c016284f99923e3a675303b15b709051c8f32655933df1f",
+    "caco_trackA_v1/results/baselines/B14_PC10_XGB/validation/candidate_results.csv": "5fb29f10ba1c1723decd7039634a26107015ff4913e8b88c5061b22388a1399a",
+    "caco_trackA_v1/results/baselines/B21_RDKIT2D_SVR/validation/candidate_results.csv": "1c5214150a40ca6c696cde6cb5a82585b98e234eca7675e4cf4010ba1bd7d7ed",
+    "caco_trackA_v1/results/baselines/B22_RDKIT2D_RF/validation/candidate_results.csv": "9ce684b66338f38a32d9b3781ea3a0c279bcf383f5cfeb8170c5961be7767e80",
+    "caco_trackA_v1/results/baselines/B23_RDKIT2D_ET/validation/candidate_results.csv": "446d4d13081fc581adc7504c52f25810676c26adbbbae241ee8d17cb171d052b",
+    "caco_trackA_v1/results/baselines/B24_RDKIT2D_XGB/validation/candidate_results.csv": "5b8382078cca3a651bbd0ffd027f63e09a880d75751cc9e8f0573bdb7ce5f473",
+    "caco_trackA_v1/results/baselines/B30_MORGAN_SVR/validation/candidate_results.csv": "83e45b696faaae5e674b88b26789f843dc42af62b0a81aaacdd6bca0f975a3de",
+    "caco_trackA_v1/results/baselines/B31_MORGAN_RF/validation/candidate_results.csv": "f1c9f0f334c815e725b8ab584da3cb9775413c6c1db3cc0832cd11fedfc78b00",
+    "caco_trackA_v1/results/baselines/B32_MORGAN_ET/validation/candidate_results.csv": "d7ff69b66e2eeb806f6f2ba736e96279626944c8fab7b0c83e5c1b2382f1abe1",
+    "caco_trackA_v1/results/baselines/B33_MORGAN_XGB/validation/candidate_results.csv": "9d0de2c90f0d812f8785aba033641fbe2dcff3e6ec88e38a72d0b50a6565814d"
+  },
+  "transformations": [],
+  "software": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "visual_qc": "Manual contact-sheet review plus individual review of core comparison/ablation figures: no visible clipping or overlap; English labels and white background.",
+  "figure_id": "fig_s08_hyperparameter_validation_landscape",
+  "source_files": [
+    "caco_trackA_v1/results/baselines/B11_PC10_SVR/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B12_PC10_RF/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B13_PC10_ET/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B14_PC10_XGB/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B21_RDKIT2D_SVR/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B22_RDKIT2D_RF/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B23_RDKIT2D_ET/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B24_RDKIT2D_XGB/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B30_MORGAN_SVR/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B31_MORGAN_RF/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B32_MORGAN_ET/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B33_MORGAN_XGB/validation/candidate_results.csv"
+  ],
+  "source_hashes": {
+    "caco_trackA_v1/results/baselines/B11_PC10_SVR/validation/candidate_results.csv": "8daedf2431091dcacd8ca1e9b1cf1647fafd6ec75b731f2b1c1f97d2b87cef41",
+    "caco_trackA_v1/results/baselines/B12_PC10_RF/validation/candidate_results.csv": "8bc5ff828bf464042df7a942caa2df6d31bbb0fec7cce3eef95e628f357edd17",
+    "caco_trackA_v1/results/baselines/B13_PC10_ET/validation/candidate_results.csv": "f101579326c1b9dd8c016284f99923e3a675303b15b709051c8f32655933df1f",
+    "caco_trackA_v1/results/baselines/B14_PC10_XGB/validation/candidate_results.csv": "5fb29f10ba1c1723decd7039634a26107015ff4913e8b88c5061b22388a1399a",
+    "caco_trackA_v1/results/baselines/B21_RDKIT2D_SVR/validation/candidate_results.csv": "1c5214150a40ca6c696cde6cb5a82585b98e234eca7675e4cf4010ba1bd7d7ed",
+    "caco_trackA_v1/results/baselines/B22_RDKIT2D_RF/validation/candidate_results.csv": "9ce684b66338f38a32d9b3781ea3a0c279bcf383f5cfeb8170c5961be7767e80",
+    "caco_trackA_v1/results/baselines/B23_RDKIT2D_ET/validation/candidate_results.csv": "446d4d13081fc581adc7504c52f25810676c26adbbbae241ee8d17cb171d052b",
+    "caco_trackA_v1/results/baselines/B24_RDKIT2D_XGB/validation/candidate_results.csv": "5b8382078cca3a651bbd0ffd027f63e09a880d75751cc9e8f0573bdb7ce5f473",
+    "caco_trackA_v1/results/baselines/B30_MORGAN_SVR/validation/candidate_results.csv": "83e45b696faaae5e674b88b26789f843dc42af62b0a81aaacdd6bca0f975a3de",
+    "caco_trackA_v1/results/baselines/B31_MORGAN_RF/validation/candidate_results.csv": "f1c9f0f334c815e725b8ab584da3cb9775413c6c1db3cc0832cd11fedfc78b00",
+    "caco_trackA_v1/results/baselines/B32_MORGAN_ET/validation/candidate_results.csv": "d7ff69b66e2eeb806f6f2ba736e96279626944c8fab7b0c83e5c1b2382f1abe1",
+    "caco_trackA_v1/results/baselines/B33_MORGAN_XGB/validation/candidate_results.csv": "9d0de2c90f0d812f8785aba033641fbe2dcff3e6ec88e38a72d0b50a6565814d"
+  },
+  "plotting_data": [
+    "caco_trackA_v1/results/baselines/B11_PC10_SVR/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B12_PC10_RF/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B13_PC10_ET/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B14_PC10_XGB/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B21_RDKIT2D_SVR/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B22_RDKIT2D_RF/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B23_RDKIT2D_ET/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B24_RDKIT2D_XGB/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B30_MORGAN_SVR/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B31_MORGAN_RF/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B32_MORGAN_ET/validation/candidate_results.csv",
+    "caco_trackA_v1/results/baselines/B33_MORGAN_XGB/validation/candidate_results.csv"
+  ],
+  "statistics": "See caption and plotting script; all derived analysis is descriptive.",
+  "reference_model_if_applicable": null,
+  "figure_size_inches": [
+    8.715,
+    5.715
+  ],
+  "output_png": "caco_trackA_v1/results/analysis/figures/png/fig_s08_hyperparameter_validation_landscape.png",
+  "generated_at": "2026-09-24T08:41:25.204763+00:00",
+  "git_commit": "d8eea30d5b22fbb0ebb9a05ba7a48eba38fa3bd7",
+  "git_commit_note": "Working tree contains uncommitted changes; commit alone does not identify generated code.",
+  "library_versions": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "upstream_figure_data_audit_sha256": "9c9b9667cb7baa8f675e1a6dfab9efb3bcc11fea8ad513ad9ba14e73d5b08ede"
+}

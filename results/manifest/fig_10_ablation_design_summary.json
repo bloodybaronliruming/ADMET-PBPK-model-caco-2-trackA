@@ -1,0 +1,63 @@
+{
+  "figure": "fig_10_ablation_design_summary",
+  "status": "PASS",
+  "created_at_utc": "2026-09-24T08:41:35.985097+00:00",
+  "output": "caco_trackA_v1/results/analysis/figures/png/fig_10_ablation_design_summary.png",
+  "output_sha256": "38aff96f71b8d8861d370ddf8f47a6a032fd5ae73470ce168238d3fdfa4884b8",
+  "pixels": [
+    7329,
+    2529
+  ],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "script": "caco_trackA_v1/figures/scripts/render_figures.py",
+  "script_sha256": "ed95325a43489bbfad501dc82f273fa170d76ddf559dac42c4be6a3e8954f6ce",
+  "source_sha256": {
+    "caco_trackA_v1/results/analysis/data/baseline_figure_summary.csv": "4fcaa1460bf9d82b9da0ece5e487fa722661ab5d5450a0bebdfb62e07993df67",
+    "caco_trackA_v1/results/analysis/ablation/representation_ablation_summary.csv": "e903daed48ec8b0e2ff62f8bff0c4955d75e5e050e729d4cd11b28841bf97ace",
+    "caco_trackA_v1/results/analysis/ablation/target_range_summary.csv": "3d7e29cdb64edefc9bbd315cedb99e63802fab41c5b982ab0d36ae7ea1a43ad3"
+  },
+  "transformations": [],
+  "software": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "visual_qc": "Manual contact-sheet review plus individual review of core comparison/ablation figures: no visible clipping or overlap; English labels and white background.",
+  "figure_id": "fig_10_ablation_design_summary",
+  "source_files": [
+    "caco_trackA_v1/results/analysis/data/baseline_figure_summary.csv",
+    "caco_trackA_v1/results/analysis/ablation/representation_ablation_summary.csv",
+    "caco_trackA_v1/results/analysis/ablation/target_range_summary.csv"
+  ],
+  "source_hashes": {
+    "caco_trackA_v1/results/analysis/data/baseline_figure_summary.csv": "4fcaa1460bf9d82b9da0ece5e487fa722661ab5d5450a0bebdfb62e07993df67",
+    "caco_trackA_v1/results/analysis/ablation/representation_ablation_summary.csv": "e903daed48ec8b0e2ff62f8bff0c4955d75e5e050e729d4cd11b28841bf97ace",
+    "caco_trackA_v1/results/analysis/ablation/target_range_summary.csv": "3d7e29cdb64edefc9bbd315cedb99e63802fab41c5b982ab0d36ae7ea1a43ad3"
+  },
+  "plotting_data": [
+    "caco_trackA_v1/results/analysis/data/baseline_figure_summary.csv",
+    "caco_trackA_v1/results/analysis/ablation/representation_ablation_summary.csv",
+    "caco_trackA_v1/results/analysis/ablation/target_range_summary.csv"
+  ],
+  "statistics": "See caption and plotting script; all derived analysis is descriptive.",
+  "reference_model_if_applicable": "B24_RDKIT2D_XGB",
+  "figure_size_inches": [
+    12.215,
+    4.215
+  ],
+  "output_png": "caco_trackA_v1/results/analysis/figures/png/fig_10_ablation_design_summary.png",
+  "generated_at": "2026-09-24T08:41:35.985097+00:00",
+  "git_commit": "d8eea30d5b22fbb0ebb9a05ba7a48eba38fa3bd7",
+  "git_commit_note": "Working tree contains uncommitted changes; commit alone does not identify generated code.",
+  "library_versions": {
+    "python": "3.11.16",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numpy": "1.26.4"
+  },
+  "upstream_figure_data_audit_sha256": "9c9b9667cb7baa8f675e1a6dfab9efb3bcc11fea8ad513ad9ba14e73d5b08ede"
+}
